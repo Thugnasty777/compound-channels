@@ -30,7 +30,8 @@
     "react-scripts": "3.4.4",
     "rebass": "^4.0.7",
     "styled-components": "^5.3.3",
-    "web3": "^1.2.7"
+    "web3": "^1.2.7",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -38,7 +39,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -54,5 +57,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
