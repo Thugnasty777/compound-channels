@@ -27,7 +27,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-loading": "^2.0.3",
-    "react-scripts": "3.4.4",
+    "react-scripts": "5.0.0",
     "rebass": "^4.0.7",
     "styled-components": "^5.3.3",
     "web3": "^1.2.7"
